@@ -2,7 +2,7 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content=d"width=device-width, initial-scale=1.0">
     <title>CMS Dashboard - Pesantren</title>
     
     <!-- Tailwind CSS -->
@@ -481,7 +481,7 @@
 
         // --- SISTEM PENYIMPANAN KE GOOGLE SHEETS (API POST) ---
         async function sendApiRequest(action, sheetName, payload) {
-            const loadingToast = showToast("Menyimpan ke Google Sheets...", "loading");
+            const loadingToast = showToast("Menyimpan ke Database...", "loading");
             
             try {
                 // Gunakan mode POST dengan tipe text/plain untuk mengakali CORS dari browser
